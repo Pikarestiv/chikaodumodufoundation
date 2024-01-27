@@ -1,7 +1,5 @@
 ---
 deployment:
- tasks:
- - export DEPLOYPATH=/home/ozd38axzfblb/public_html/
-#  - /bin/cp index.html $DEPLOYPATH
-#  - /bin/cp style.css $DEPLOYPATH
-- /bin/cp $(ls | grep -v "^\.") $DEPLOYPATH
+  tasks:
+    - export DEPLOYPATH=/home/ozd38axzfblb/public_html/
+    - /bin/cp -R * $DEPLOYPATH
