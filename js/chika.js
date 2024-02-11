@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
     chika: {
       fullName: "Chika Odumodu",
       image: "images/475x520_photo1.jpg",
-      role: "Foundeer and CEO",
+      role: "Founder and CEO",
       bio: chikaBio,
       disableId: "chikaMember",
     },
@@ -17,14 +17,14 @@ document.addEventListener("DOMContentLoaded", function () {
       fullName: "Samuel Odumodu",
       image: "images/475x520_photo2.jpg",
       role: "Executive Director",
-      bio: "",
+      bio: samBio,
       disableId: "samMember",
     },
     stella: {
       fullName: "Stella Odumodu",
       image: "images/475x520_photo3.jpg",
       role: "Vice Chair of Trustees",
-      bio: "",
+      bio: stellaBio,
       disableId: "stellaMember",
     },
   };
@@ -85,6 +85,62 @@ var chikaBio = `
 <p>He successfully took a position as a Program Manager for EnLink Midstream, LLC in Dallas Texas managing high pressure natural gas pipeline projects out of Donaldsonville and Lake Charles, Lousianna. He is currently working as a Program Manager, Integrity & Data Management for EnServ Energy Services and Solutions, LLC in Houston Texas where he manages integrity management projects for their entire IMP department.</p>
 <p>Mr. Chika Odumodu earned a Bachelor's Degree in Chemical Engineering from Prairie View Agricultural & Mechanical University in Houston, and a Post Graduate Diploma in Petroleum Production Engineering from Robert Gordon University based out of Aberdeen, Scotland. He complemented his technical educational background with a HBX Management Program from Harvard University.</p>
 </div>
+`;
+
+var samBio = `
+<div class="content-element-4">
+<p>Mr. Samuel Odumodu is the Executive Director of The Chika Odumodu Foundation; a 501(c) non profit organization involved in providing opportunities related to education in Nigeria specifically, and the broader continent of Africa.</p>
+<p>Mr Samuel Odumodu has 30 years experience managing geological projects both onshore and offshore in the oil & gas industry. He spent his entire career working for Shell Oil Company in Nigeria where he served in several positions in management leading geological and seismic projects until his retirement as Chief Petroleum Engineer & Head Subsurface in 1999. Mr. Samuel Odumodu later served as Managing Director in Prodecon and Director in Masurin Tec Limited in Nigeria.</p>
+<p>Mr. Samuel Odumodu earned a Bachelor's Degree in Geology from the University of Ibadan in 1973.</p>
+</div>
+<!-- <div class="content-element-4">
+<div class="mad-list-content mad-fw-semi">
+  <ul class="mad-list--icon">
+    <li>Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit.<i
+        class="icon material-icons-outlined">grade_outline</i>
+    </li>
+    <li>Aenean auctor wisi et urna. Aliquam erat volutpat. <i
+        class="icon material-icons-outlined">grade_outline</i></li>
+    <li>Duis ac turpis. Integer rutrum ante eu lacus.<i
+        class="icon material-icons-outlined">grade_outline</i></li>
+    <li>Vestibulum libero nisl, porta vel, scelerisque eget, malesuada at, neque.<i
+        class="icon material-icons-outlined">grade_outline</i></li>
+  </ul>
+</div>
+</div> -->
+<!-- <div class="content-element-6">
+<p> He transitioned to TransCanada Corporation in Houston Texas, managing facilities maintenance and pipeline projects across the U.S. He was later acquired by ConocoPhillips Company in Houston Texas, where he successfully worked on a high profile fiberspar replacement project based out of Kennedy Texas (Eagle Ford Asset). After the success of that 2 year contract, He moved to Enbridge Corporation where He served in several senior positions as a Program Manager within the Gas Pipeline Project Management Team (MPUG) and Liquids Anomaly Maintenance PM Team in Houston Texas. Lastly </p>
+<p>He successfully took a position as a Program Manager for EnLink Midstream, LLC in Dallas Texas managing high pressure natural gas pipeline projects out of Donaldsonville and Lake Charles, Lousianna. He is currently working as a Program Manager, Integrity & Data Management for EnServ Energy Services and Solutions, LLC in Houston Texas where he manages integrity management projects for their entire IMP department.</p>
+<p>Mr. Chika Odumodu earned a Bachelor's Degree in Chemical Engineering from Prairie View Agricultural & Mechanical University in Houston, and a Post Graduate Diploma in Petroleum Production Engineering from Robert Gordon University based out of Aberdeen, Scotland. He complemented his technical educational background with a HBX Management Program from Harvard University.</p>
+</div> -->
+`;
+
+var stellaBio = `
+<div class="content-element-4">
+<p>Mrs. Stella Odumodu is the Vice Chair of Trustees for The Chika Odumodu Foundation; a 501(c) non profit organization involved in providing opportunities related to education in Nigeria specifically, and the broader continent of Africa.</p>
+<p>Mrs. Stella Odumodu has 15 years experience managing business planning and budgeting processes of multiple oil and gas projects in the oil & gas industry. She spent her entire career working for Shell Oil Company in Nigeria where she served in several senior positions leading finance projects until her retirement as Senior Project Account in 2015. Mrs. Stella Odumodu currently serves as Director for Dumosis Nigeria Limited and Senior Project Accountant for Camp Construction Services based in Houston, Texas.</p>
+<p>Mrs. Stella Odumodu earned a Bachelor's Degree in Accounting from Auchi Polytechnic, Nigeria and a Masters of Business Administration Degree (MBA) from American InterContinental University in 2017.</p>
+</div>
+<!-- <div class="content-element-4">
+<div class="mad-list-content mad-fw-semi">
+  <ul class="mad-list--icon">
+    <li>Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit.<i
+        class="icon material-icons-outlined">grade_outline</i>
+    </li>
+    <li>Aenean auctor wisi et urna. Aliquam erat volutpat. <i
+        class="icon material-icons-outlined">grade_outline</i></li>
+    <li>Duis ac turpis. Integer rutrum ante eu lacus.<i
+        class="icon material-icons-outlined">grade_outline</i></li>
+    <li>Vestibulum libero nisl, porta vel, scelerisque eget, malesuada at, neque.<i
+        class="icon material-icons-outlined">grade_outline</i></li>
+  </ul>
+</div>
+</div> -->
+<!-- <div class="content-element-6">
+<p> He transitioned to TransCanada Corporation in Houston Texas, managing facilities maintenance and pipeline projects across the U.S. He was later acquired by ConocoPhillips Company in Houston Texas, where he successfully worked on a high profile fiberspar replacement project based out of Kennedy Texas (Eagle Ford Asset). After the success of that 2 year contract, He moved to Enbridge Corporation where He served in several senior positions as a Program Manager within the Gas Pipeline Project Management Team (MPUG) and Liquids Anomaly Maintenance PM Team in Houston Texas. Lastly </p>
+<p>He successfully took a position as a Program Manager for EnLink Midstream, LLC in Dallas Texas managing high pressure natural gas pipeline projects out of Donaldsonville and Lake Charles, Lousianna. He is currently working as a Program Manager, Integrity & Data Management for EnServ Energy Services and Solutions, LLC in Houston Texas where he manages integrity management projects for their entire IMP department.</p>
+<p>Mr. Chika Odumodu earned a Bachelor's Degree in Chemical Engineering from Prairie View Agricultural & Mechanical University in Houston, and a Post Graduate Diploma in Petroleum Production Engineering from Robert Gordon University based out of Aberdeen, Scotland. He complemented his technical educational background with a HBX Management Program from Harvard University.</p>
+</div> -->
 `;
 
 var memberTemplate = (name, role, image, urlName) => `
