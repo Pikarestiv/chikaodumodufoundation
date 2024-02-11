@@ -4,7 +4,7 @@
 
 	if($_SERVER['REQUEST_METHOD'] === 'POST'){
 
-		$your_email = ''; // enter your email address
+		$your_email = 'info@chikaodumodufoundation.com';
 
 		extract($_POST);
 
